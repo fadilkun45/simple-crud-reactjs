@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  padding: 0 ;
+  margin: 0 ;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  width: 560px ;
+  margin: auto ;
+  text-align: center ;
 }
+
+.main h1 {
+  margin: 20px auto ;
+  color: #2761d6;
+}
+
+form {
+  display: flex ;
+  flex-direction: column ;
+  width: 80% ;
+  margin: 25px auto;
+  color: #2761d6;
+}
+
+form input {
+  margin: 10px 0 ;
+  padding: 6px 10px ;
+  border: #2761d6 solid 1px ;
+  outline: none ;
+  border-radius: 9px ;
+  transition: 0.5s all ;
+}
+
+form input:hover {
+  background-color: #2761d6;
+  color: #fff ;
+}
+
+form button {
+  margin: auto ;
+  margin-top: 15px ;
+  padding: 6px 4px ;
+  border: #2761d6 solid 1px ;
+  background-color: transparent;
+  border-radius: 16px ;
+  transition: 0.5s all ;
+  width: 60% ;
+}
+
+form button:hover {
+  background-color: #2761d6;
+  color: #fff ;
+}
+
+form h2 {
+  margin-bottom: 40px ;
+}
+
+
+table {
+  width: 80% ;
+  margin: 20px auto ;
+  border-collapse: collapse ;
+}
+
+table thead {
+  background-color: #0d4bc9 ;
+  color: #FFF ;
+}
+
+table thead th {
+  padding: 3px 5px ;
+  border : #FFF 1px solid  ;
+  border : #1359e6 1px solid  ;
+}
+
+table tbody td {
+  padding: 3px 5px ;
+  border : #1359e6 1px solid  ;
+
+}
+
+
+
+

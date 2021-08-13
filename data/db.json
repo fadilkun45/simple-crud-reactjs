@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "item": "kulkas",
+      "jumlah": 1,
+      "id": 1
+    },
+    {
+      "item": "tv",
+      "jumlah": 2,
+      "id": 2
+    },
+    {
+      "item": "dad",
+      "jumlah": "aada",
+      "id": 3
+    },
+    {
+      "item": "gdgd",
+      "jumlah": "342424",
+      "id": 4
+    }
+  ]
+}
